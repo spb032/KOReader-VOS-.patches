@@ -44,7 +44,7 @@ local pages_cfg = {
 
 --========================== [[Percent badge preferences]] ==============================
 local percent_cfg = {
-    text_size = 0.50,   -- Adjust from 0 to 1
+    text_size = 0.40,   -- Adjust from 0 to 1
     move_on_x = -15,     -- Adjust how far left the badge should sit
     move_on_y = -1,     -- Adjust how far up the badge should sit
     badge_w = 70,       -- Adjust badge width
