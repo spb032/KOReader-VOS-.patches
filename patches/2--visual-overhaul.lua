@@ -54,7 +54,7 @@ local percent_cfg = {
 
 --========================== [[Series badge preferences]] ===============================
 local series_cfg = {
-    font_size = 5,                                          -- Adjust from 0 to 1
+    font_size = 11,                                          -- Adjust from 0 to 1
     border_thickness = 1,                                    -- Adjust from 0 to 5
     border_corner_radius = 9,                                -- Adjust from 0 to 20
     text_color = Blitbuffer.colorFromString("#000000"),      -- Choose your desired color
