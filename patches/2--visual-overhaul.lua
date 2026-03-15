@@ -25,7 +25,7 @@ local DEBUG_ICONS = false  -- set false to silence custom-icon diagnostics
 local aspect_ratio = 2 / 3          -- adjust aspect ratio of folder cover
 local stretch_limit = 50            -- adjust the stretching limit
 local fill = false                  -- set true to fill the entire cell ignoring aspect ratio
-local file_count_size = 14          -- font size of the file count badge
+local file_count_size = 5          -- font size of the file count badge
 local folder_font_size = 20         -- font size of the folder name
 local folder_border = 0.5           -- thickness of folder border
 local folder_name = true            -- set to false to remove folder title from the center
@@ -33,13 +33,13 @@ local folder_name = true            -- set to false to remove folder title from 
 
 --========================== [[Pages badge preferences]] ================================
 local pages_cfg = {
-    font_size = 0.95,                             -- Adjust from 0 to 1
+    font_size = 0.55,                             -- Adjust from 0 to 1
     text_color = Blitbuffer.COLOR_WHITE,          -- Choose your desired color
     border_thickness = 2,                         -- Adjust from 0 to 5
     border_corner_radius = 12,                    -- Adjust from 0 to 20
     border_color = Blitbuffer.COLOR_DARK_GRAY,    -- Choose your desired color
     background_color = Blitbuffer.COLOR_GRAY_3,   -- Choose your desired color
-    move_from_border = 8,                         -- Choose how far in the badge should sit
+    move_from_border = 10,                         -- Choose how far in the badge should sit
 }
 
 --========================== [[Percent badge preferences]] ==============================
@@ -54,7 +54,7 @@ local percent_cfg = {
 
 --========================== [[Series badge preferences]] ===============================
 local series_cfg = {
-    font_size = 11,                                          -- Adjust from 0 to 1
+    font_size = 5,                                          -- Adjust from 0 to 1
     border_thickness = 1,                                    -- Adjust from 0 to 5
     border_corner_radius = 9,                                -- Adjust from 0 to 20
     text_color = Blitbuffer.colorFromString("#000000"),      -- Choose your desired color
